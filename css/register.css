@@ -1,0 +1,134 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #f3f5f4;		
+}
+.wrap{
+	width: 990px;
+	margin: 0 auto;
+	
+}
+header img{
+	vertical-align: middle;
+}
+header span{
+	display: inline-block;
+	width: 180px;
+	height:50px;
+	vertical-align: middle;
+	margin-left: 10px;
+	background: url(../img/a.png) no-repeat -105px 0;
+}
+.userwrap{
+	width: 988px;
+	border: 1px solid #999999;
+	background: #f9f7f8;
+}
+.userform{
+	width: 338px;
+	margin: 0 auto;
+}
+.userform h5{
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 20px;
+	padding: 20px 0;
+}
+.userform p{
+	margin-top: 10px;
+}
+input{
+	outline: none;
+}
+.userform p{
+	position: relative;
+}
+.userform p .inp{	
+	height: 50px;
+	width: 336px;
+	font-size: 16px;
+	padding-left: 35px;
+	box-sizing: border-box;	
+	border: 1px solid #999999;
+	border-radius: 5px;
+}
+.userform p span{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 10px;
+	top: 50%;
+	margin-top: -8px;
+}
+.userform p span{
+	background: url(../img/a.png) no-repeat -576px -25px;
+}
+.userform p .psi{
+	background: url(../img/a.png) no-repeat -410px -504px;
+}
+.userform .pas_i img{
+	width: 98px;
+	height: 38px;
+	position: absolute;
+	right: 4px;
+	top: 6px;
+}
+.userform p .phone_num{
+	float: left;
+	width: 228px;
+}
+.userform .num:after{
+	content: "";
+	display: block;
+	clear: both;	
+}
+.userform p .numbtn{
+	float: right;
+	width: 96px;
+	padding: 0;
+	cursor: pointer;	
+}
+.userform p .numi{
+	background: url(../img/a.png) no-repeat -576px 0;
+}
+.userform p .ps{
+	background: url(../img/a.png) no-repeat -576px -51px;
+}
+.userform p .nop{
+	padding: 0;
+	text-indent: 10px;
+}
+.userform .subm .inp{
+	background: #991111;
+	padding: 0;
+	color:#fff;
+	letter-spacing: 3px;
+	cursor: pointer;
+} 
+.userform .subm .inp:hover{
+	filter: brightness(70%);
+}
+.userform .folt{
+	font-size: 12px;
+	line-height: 40px;
+	color: #999999;
+}
+.userform b{
+	padding-left: 35px;
+	font-size: 12px;
+	line-height: 16px;
+	background: url(../img/a.png) no-repeat -237px -536px;
+	display: none;
+}
+/*copy*/
+.copy{
+	padding-top: 30px;
+	background: #FFFFFF;
+}
+.copy p{
+	text-align: center;
+	padding-bottom: 20px;
+}
